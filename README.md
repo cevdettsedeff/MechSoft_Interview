@@ -15,13 +15,16 @@ You can find algorithm questions and the "Meeting Organizer" project in this rep
 >![image](https://i.hizliresim.com/c8shk77.png)
 
 * Main Page in Front-End(Blazor);
->![image](https://i.hizliresim.com/61dqis3.png)
+>![image](https://i.hizliresim.com/3a5djn3.png)
 
 * Meetings in Front-End(Blazor);
 >![image](https://i.hizliresim.com/mv32tul.png)
 
 * Creating meeting in Front-End(Blazor);
 >![image](https://i.hizliresim.com/ifue1yh.png)
+
+* Updating meeting in Front-End(Blazor);
+>![image](https://i.hizliresim.com/72zz617.png)
 ---
 ## Algorithm Questions in Python
 * **size_multiply_with_occurence:** From all possible substrings in a given string, obtain the substring and score that gives the maximum *"string length * frequency"* score in the main text.
