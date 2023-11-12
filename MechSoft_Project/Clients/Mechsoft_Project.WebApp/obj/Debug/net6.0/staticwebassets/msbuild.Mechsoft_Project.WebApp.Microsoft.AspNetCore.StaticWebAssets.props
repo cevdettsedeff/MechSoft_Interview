@@ -297,7 +297,7 @@
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Alternative</AssetRole>
-      <RelatedAsset>C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Project\Clients\Mechsoft_Project.WebApp\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js</RelatedAsset>
+      <RelatedAsset>C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Interview\MechSoft_Project\Clients\Mechsoft_Project.WebApp\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js</RelatedAsset>
       <AssetTraitName>Content-Encoding</AssetTraitName>
       <AssetTraitValue>gzip</AssetTraitValue>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

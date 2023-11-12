@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Mechsoft_Project.Persistence.Migrations
 {
     [DbContext(typeof(MeetingDbContext))]
-    [Migration("20231112165440_Initial")]
+    [Migration("20231112204955_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

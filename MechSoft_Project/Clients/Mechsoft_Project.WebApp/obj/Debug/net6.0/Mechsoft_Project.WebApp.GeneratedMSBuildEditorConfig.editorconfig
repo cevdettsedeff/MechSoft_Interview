@@ -9,53 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = Mechsoft_Project.WebApp
 build_property.RootNamespace = Mechsoft_Project.WebApp
-build_property.ProjectDir = C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Project\Clients\Mechsoft_Project.WebApp\
+build_property.ProjectDir = C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Interview\MechSoft_Project\Clients\Mechsoft_Project.WebApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Project\Clients\Mechsoft_Project.WebApp
+build_property.MSBuildProjectDirectory = C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Interview\MechSoft_Project\Clients\Mechsoft_Project.WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Cevsev/Desktop/C\# Projelerim/Yeni Projeler/MechSoft_Project/MechSoft_Project/Clients/Mechsoft_Project.WebApp/App.razor]
+[C:/Users/Cevsev/Desktop/C\# Projelerim/Yeni Projeler/MechSoft_Project/MechSoft_Interview/MechSoft_Project/Clients/Mechsoft_Project.WebApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Cevsev/Desktop/C\# Projelerim/Yeni Projeler/MechSoft_Project/MechSoft_Project/Clients/Mechsoft_Project.WebApp/Pages/Counter.razor]
+[C:/Users/Cevsev/Desktop/C\# Projelerim/Yeni Projeler/MechSoft_Project/MechSoft_Interview/MechSoft_Project/Clients/Mechsoft_Project.WebApp/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Cevsev/Desktop/C\# Projelerim/Yeni Projeler/MechSoft_Project/MechSoft_Project/Clients/Mechsoft_Project.WebApp/Pages/CreateMeeting.razor]
+[C:/Users/Cevsev/Desktop/C\# Projelerim/Yeni Projeler/MechSoft_Project/MechSoft_Interview/MechSoft_Project/Clients/Mechsoft_Project.WebApp/Pages/CreateMeeting.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlTWVldGluZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Cevsev/Desktop/C\# Projelerim/Yeni Projeler/MechSoft_Project/MechSoft_Project/Clients/Mechsoft_Project.WebApp/Pages/FetchData.razor]
+[C:/Users/Cevsev/Desktop/C\# Projelerim/Yeni Projeler/MechSoft_Project/MechSoft_Interview/MechSoft_Project/Clients/Mechsoft_Project.WebApp/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Cevsev/Desktop/C\# Projelerim/Yeni Projeler/MechSoft_Project/MechSoft_Project/Clients/Mechsoft_Project.WebApp/Pages/Index.razor]
+[C:/Users/Cevsev/Desktop/C\# Projelerim/Yeni Projeler/MechSoft_Project/MechSoft_Interview/MechSoft_Project/Clients/Mechsoft_Project.WebApp/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Cevsev/Desktop/C\# Projelerim/Yeni Projeler/MechSoft_Project/MechSoft_Project/Clients/Mechsoft_Project.WebApp/Pages/MeetingPage.razor]
+[C:/Users/Cevsev/Desktop/C\# Projelerim/Yeni Projeler/MechSoft_Project/MechSoft_Interview/MechSoft_Project/Clients/Mechsoft_Project.WebApp/Pages/MeetingPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVldGluZ1BhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Cevsev/Desktop/C\# Projelerim/Yeni Projeler/MechSoft_Project/MechSoft_Project/Clients/Mechsoft_Project.WebApp/Pages/UpdateMeeting.razor]
+[C:/Users/Cevsev/Desktop/C\# Projelerim/Yeni Projeler/MechSoft_Project/MechSoft_Interview/MechSoft_Project/Clients/Mechsoft_Project.WebApp/Pages/UpdateMeeting.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBkYXRlTWVldGluZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Cevsev/Desktop/C\# Projelerim/Yeni Projeler/MechSoft_Project/MechSoft_Project/Clients/Mechsoft_Project.WebApp/Shared/SurveyPrompt.razor]
+[C:/Users/Cevsev/Desktop/C\# Projelerim/Yeni Projeler/MechSoft_Project/MechSoft_Interview/MechSoft_Project/Clients/Mechsoft_Project.WebApp/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Cevsev/Desktop/C\# Projelerim/Yeni Projeler/MechSoft_Project/MechSoft_Project/Clients/Mechsoft_Project.WebApp/_Imports.razor]
+[C:/Users/Cevsev/Desktop/C\# Projelerim/Yeni Projeler/MechSoft_Project/MechSoft_Interview/MechSoft_Project/Clients/Mechsoft_Project.WebApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Cevsev/Desktop/C\# Projelerim/Yeni Projeler/MechSoft_Project/MechSoft_Project/Clients/Mechsoft_Project.WebApp/Shared/MainLayout.razor]
+[C:/Users/Cevsev/Desktop/C\# Projelerim/Yeni Projeler/MechSoft_Project/MechSoft_Interview/MechSoft_Project/Clients/Mechsoft_Project.WebApp/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-pdlg6bxzpw
 
-[C:/Users/Cevsev/Desktop/C\# Projelerim/Yeni Projeler/MechSoft_Project/MechSoft_Project/Clients/Mechsoft_Project.WebApp/Shared/NavMenu.razor]
+[C:/Users/Cevsev/Desktop/C\# Projelerim/Yeni Projeler/MechSoft_Project/MechSoft_Interview/MechSoft_Project/Clients/Mechsoft_Project.WebApp/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ovdqhvnx5m

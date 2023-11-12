@@ -1052,11 +1052,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Api\\Core\\Mechsoft_Project.Application\\Mechsoft_Project.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Api\\Core\\Mechsoft_Project.Application\\Mechsoft_Project.Application.csproj",
       "projectName": "Mechsoft_Project.Application",
-      "projectPath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Api\\Core\\Mechsoft_Project.Application\\Mechsoft_Project.Application.csproj",
+      "projectPath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Api\\Core\\Mechsoft_Project.Application\\Mechsoft_Project.Application.csproj",
       "packagesPath": "C:\\Users\\Cevsev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Api\\Core\\Mechsoft_Project.Application\\obj\\",
+      "outputPath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Api\\Core\\Mechsoft_Project.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1077,11 +1077,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Api\\Core\\Mechsoft_Project.Domain\\Mechsoft_Project.Domain.csproj": {
-              "projectPath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Api\\Core\\Mechsoft_Project.Domain\\Mechsoft_Project.Domain.csproj"
+            "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Api\\Core\\Mechsoft_Project.Domain\\Mechsoft_Project.Domain.csproj": {
+              "projectPath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Api\\Core\\Mechsoft_Project.Domain\\Mechsoft_Project.Domain.csproj"
             },
-            "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Common\\Mechsoft_Project.Common\\Mechsoft_Project.Common.csproj": {
-              "projectPath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Common\\Mechsoft_Project.Common\\Mechsoft_Project.Common.csproj"
+            "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Common\\Mechsoft_Project.Common\\Mechsoft_Project.Common.csproj": {
+              "projectPath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Common\\Mechsoft_Project.Common\\Mechsoft_Project.Common.csproj"
             }
           }
         }

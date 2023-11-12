@@ -4031,11 +4031,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Api\\Infrastructure\\Mechsoft_Project.Infrastructure\\Mechsoft_Project.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Api\\Infrastructure\\Mechsoft_Project.Infrastructure\\Mechsoft_Project.Infrastructure.csproj",
       "projectName": "Mechsoft_Project.Infrastructure",
-      "projectPath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Api\\Infrastructure\\Mechsoft_Project.Infrastructure\\Mechsoft_Project.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Api\\Infrastructure\\Mechsoft_Project.Infrastructure\\Mechsoft_Project.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Cevsev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Api\\Infrastructure\\Mechsoft_Project.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Api\\Infrastructure\\Mechsoft_Project.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W2vrQ0LQmk9WDFdlp3us6cQ8BxIuLeyK3zB4HaJnGQbqm3eytL8BsspP2Q1O754bHAm7qBpGaFMDs8M63UREkw==",
+  "dgSpecHash": "WXtIZtIFtPM/KKQtSuSKLgZgd3QaHrEhMYN8m2a94IIdAXUZftc9SSVjlQwdBVVIM4Wr49GVZ1ZgsFmlfxdfqA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Clients\\Mechsoft_Project.WebApp\\Mechsoft_Project.WebApp.csproj",
+  "projectFilePath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Clients\\Mechsoft_Project.WebApp\\Mechsoft_Project.WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cevsev\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\Cevsev\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",

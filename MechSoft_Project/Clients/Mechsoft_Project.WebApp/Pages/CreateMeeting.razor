@@ -24,15 +24,15 @@
     <br />
     <div class="form-group col-md-4">
         <label class="form-label" for="startTime">Başlangıç Saati:</label>
-        <input type="datetime-local" min="DateTime.UtcNow"
-               max="2018-06-14T00:00" id="startTime" class="form-control" @bind="NewMeetingCommand.StartTime" />
+        <input type="datetime-local"
+               id="startTime" class="form-control" @bind="NewMeetingCommand.StartTime" />
     @* <ValidationMessage For="@(() => NewMeetingCommand.StartTime)" /> *@
 </div>
     <br />
     <div class="form-group col-md-4">
         <label class="form-label" for="endTime">Bitiş Saati:</label>
-        <input type="datetime-local" min="@DateTime.UtcNow"
-               max="2024-06-14T00:00" id="endTime" class="form-control" @bind="NewMeetingCommand.EndTime" />
+        <input type="datetime-local"
+                id="endTime" class="form-control" @bind="NewMeetingCommand.EndTime" />
         @* <ValidationMessage For="@(() => NewMeetingCommand.EndTime)" /> *@
     </div>
     <br />

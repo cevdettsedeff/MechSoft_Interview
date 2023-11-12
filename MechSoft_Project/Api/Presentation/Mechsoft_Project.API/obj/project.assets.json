@@ -6318,11 +6318,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Api\\Presentation\\Mechsoft_Project.API\\Mechsoft_Project.API.csproj",
+      "projectUniqueName": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Api\\Presentation\\Mechsoft_Project.API\\Mechsoft_Project.API.csproj",
       "projectName": "Mechsoft_Project.API",
-      "projectPath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Api\\Presentation\\Mechsoft_Project.API\\Mechsoft_Project.API.csproj",
+      "projectPath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Api\\Presentation\\Mechsoft_Project.API\\Mechsoft_Project.API.csproj",
       "packagesPath": "C:\\Users\\Cevsev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Api\\Presentation\\Mechsoft_Project.API\\obj\\",
+      "outputPath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Api\\Presentation\\Mechsoft_Project.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6343,14 +6343,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Api\\Core\\Mechsoft_Project.Application\\Mechsoft_Project.Application.csproj": {
-              "projectPath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Api\\Core\\Mechsoft_Project.Application\\Mechsoft_Project.Application.csproj"
+            "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Api\\Core\\Mechsoft_Project.Application\\Mechsoft_Project.Application.csproj": {
+              "projectPath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Api\\Core\\Mechsoft_Project.Application\\Mechsoft_Project.Application.csproj"
             },
-            "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Api\\Infrastructure\\Mechsoft_Project.Infrastructure\\Mechsoft_Project.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Api\\Infrastructure\\Mechsoft_Project.Infrastructure\\Mechsoft_Project.Infrastructure.csproj"
+            "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Api\\Infrastructure\\Mechsoft_Project.Infrastructure\\Mechsoft_Project.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Api\\Infrastructure\\Mechsoft_Project.Infrastructure\\Mechsoft_Project.Infrastructure.csproj"
             },
-            "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Api\\Infrastructure\\Mechsoft_Project.Persistence\\Mechsoft_Project.Persistence.csproj": {
-              "projectPath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Api\\Infrastructure\\Mechsoft_Project.Persistence\\Mechsoft_Project.Persistence.csproj"
+            "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Api\\Infrastructure\\Mechsoft_Project.Persistence\\Mechsoft_Project.Persistence.csproj": {
+              "projectPath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Api\\Infrastructure\\Mechsoft_Project.Persistence\\Mechsoft_Project.Persistence.csproj"
             }
           }
         }

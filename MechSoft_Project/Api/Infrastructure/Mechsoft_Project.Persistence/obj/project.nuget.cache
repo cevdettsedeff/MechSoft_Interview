@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qp6rg21LFu3PfLtn6amUO52cTp/aXN48SA91kEMBbCzs3BcI/TkdUWZzygNYVImifMpuEp1Da9gkowhjR5vLYA==",
+  "dgSpecHash": "QDUZ3pPF5EyzKPWIgtAEsPeS+fjGY7to4/0o/7blQgG4H7cEHko1dri3EOaXDwWgG9kuTCvqdiRLdGIbiKYoag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Api\\Infrastructure\\Mechsoft_Project.Persistence\\Mechsoft_Project.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Api\\Infrastructure\\Mechsoft_Project.Persistence\\Mechsoft_Project.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cevsev\\.nuget\\packages\\autofac\\7.1.0\\autofac.7.1.0.nupkg.sha512",
     "C:\\Users\\Cevsev\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",

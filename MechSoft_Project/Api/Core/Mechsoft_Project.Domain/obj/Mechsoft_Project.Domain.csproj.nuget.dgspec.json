@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Api\\Core\\Mechsoft_Project.Domain\\Mechsoft_Project.Domain.csproj": {}
+    "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Api\\Core\\Mechsoft_Project.Domain\\Mechsoft_Project.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Api\\Core\\Mechsoft_Project.Domain\\Mechsoft_Project.Domain.csproj": {
+    "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Api\\Core\\Mechsoft_Project.Domain\\Mechsoft_Project.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Api\\Core\\Mechsoft_Project.Domain\\Mechsoft_Project.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Api\\Core\\Mechsoft_Project.Domain\\Mechsoft_Project.Domain.csproj",
         "projectName": "Mechsoft_Project.Domain",
-        "projectPath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Api\\Core\\Mechsoft_Project.Domain\\Mechsoft_Project.Domain.csproj",
+        "projectPath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Api\\Core\\Mechsoft_Project.Domain\\Mechsoft_Project.Domain.csproj",
         "packagesPath": "C:\\Users\\Cevsev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Api\\Core\\Mechsoft_Project.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Api\\Core\\Mechsoft_Project.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

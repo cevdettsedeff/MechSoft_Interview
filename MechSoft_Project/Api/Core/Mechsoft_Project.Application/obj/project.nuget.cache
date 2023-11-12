@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Va6dtaMYailxrn5CxWDwtjaDSqFKLLtBRij82PQO/9xzujGuP3kDN5rhIkYpquFMoZI3guOCOJlpb6homNqkcA==",
+  "dgSpecHash": "pkf9PEB84J41S1Vb+SA4cF1YMNw2xN2X/pvwnUbP7TxA9+x1Ihvc+IFrPybyb4UaWv3dew4NnSL5J+yQ17xgjQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Api\\Core\\Mechsoft_Project.Application\\Mechsoft_Project.Application.csproj",
+  "projectFilePath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Api\\Core\\Mechsoft_Project.Application\\Mechsoft_Project.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cevsev\\.nuget\\packages\\autofac\\7.1.0\\autofac.7.1.0.nupkg.sha512",
     "C:\\Users\\Cevsev\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",

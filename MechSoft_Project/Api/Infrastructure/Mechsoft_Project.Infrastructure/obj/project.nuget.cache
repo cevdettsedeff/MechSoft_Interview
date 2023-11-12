@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QywgYQAjMSwhD5Yk4nZA/qOVHc+TNd9iVTx6dPt6dcviY3KK6HN8XaHrEimvecjh5EQte02xJ12t2WzY0+KIWQ==",
+  "dgSpecHash": "m6IG9sGbd9Iq7MZra8XB4VFghFctXUwBsnIADe+jt3GGtXlkAMRq0md4ie8KWVCNMfsrpNoCmRBsVAlWzmcXtg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Api\\Infrastructure\\Mechsoft_Project.Infrastructure\\Mechsoft_Project.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Interview\\MechSoft_Project\\Api\\Infrastructure\\Mechsoft_Project.Infrastructure\\Mechsoft_Project.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cevsev\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Cevsev\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

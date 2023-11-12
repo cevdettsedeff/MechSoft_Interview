@@ -13,6 +13,7 @@ namespace Mechsoft_Project.Application.Validators
         public MeetingValidator()
         {
             RuleFor(p => p.Participants).NotEmpty().NotNull().WithMessage("Lütfen katılımcılar alanını doldurunuz!");
+            RuleFor(p => p.MeetingDate).NotEmpty().NotNull().WithMessage("Lütfen Tarih alanını doldurunuz!");
         }
     }
 }
