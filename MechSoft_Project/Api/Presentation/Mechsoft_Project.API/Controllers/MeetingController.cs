@@ -46,8 +46,8 @@ namespace Mechsoft_Project.API.Controllers
             return Ok(result);
         }
 
-        [HttpPut("update")]
-        public async Task<IActionResult> Update(UpdateMeetingCommand command)
+        [HttpPut("update/{id}")]
+        public async Task<IActionResult> Update(int id, [FromBody]UpdateMeetingCommand command)
         {
             var meeting = await _mediator.Send(command);
             return Ok(meeting);

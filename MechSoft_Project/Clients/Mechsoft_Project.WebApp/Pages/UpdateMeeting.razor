@@ -1,4 +1,4 @@
-﻿@page "/meetings/get/{id}"
+﻿@page "/meetings/get/{Id}"
 
 @using Mechsoft_Project.Application.Features.Commands.UpdateMeeting;
 @using Mechsoft_Project.Common.Models.Queries;
@@ -6,7 +6,7 @@
 
 @inject NavigationManager NavigationManager
 
-<h3>Meeting Güncelleme Sayfası</h3>
+<h3>Toplantı Güncelleme Sayfası</h3>
 
 @if (meeting != null)
 {
@@ -49,8 +49,8 @@
         <br />
 
         <div class="button-group">
-            <button type="button" class="btn btn-outline-primary col-md-2" @onclick="() => Return()">Geri dön</button>
-            <button type="submit" class="btn btn-primary col-md-2">Güncelle</button>
+            <button type="button" class="btn btn-outline-success col-md-2" @onclick="() => Return()">Geri dön</button>
+            <button type="submit" class="btn btn-success col-md-2">Güncelle</button>
         </div>
     </EditForm>
 }
@@ -60,8 +60,9 @@ else
 }
 
 @code {
+
     [Parameter]
-    public int id { get; set; }
+    public string Id { get; set; }
 
     [Inject]
     IMeetingService meetingService { get; set; }
@@ -78,13 +79,13 @@ else
     protected override async Task OnInitializedAsync()
     {
         // Meeting verilerini getir
-        meeting = await meetingService.GetOneMeeting(id);
+        meeting = await meetingService.GetOneMeeting(int.Parse(Id));
     }
 
-     
-     async Task Update()
+
+    async Task Update()
     {
-        await meetingService.UpdateMeeting(new UpdateMeetingCommand
+         var result = await meetingService.UpdateMeeting(new UpdateMeetingCommand
             {
                 Id=meeting.Id,
                 Subject = meeting.Subject,
@@ -94,8 +95,15 @@ else
                 Participants = meeting.Participants
             });
 
+
         NavigationManager.NavigateTo("/meetings");
     }
 
-    
+    protected override Task OnParametersSetAsync()
+    {
+
+        return base.OnParametersSetAsync();
+    }
+
+
 }

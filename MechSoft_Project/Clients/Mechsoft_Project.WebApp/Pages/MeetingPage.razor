@@ -34,7 +34,8 @@ else
                     <td>@meeting.EndTime.ToString("HH:mm")</td>
                     <td>@meeting.Participants</td>
                     <td>
-                        <button class="btn btn-success" @onclick="() => EditMeeting(meeting.Id)">Düzenle</button>
+                         <button class="btn btn-success" hre @onclick="() => EditMeeting(meeting.Id)">Düzenle</button> 
+                       @*  <a class="btn btn-success" href="/meetings/get/@meeting.Id">Düzenle</a> *@
                         <button class="btn btn-danger" @onclick="() => DeleteMeeting(meeting.Id)">Sil</button>
                     </td>
                 </tr>

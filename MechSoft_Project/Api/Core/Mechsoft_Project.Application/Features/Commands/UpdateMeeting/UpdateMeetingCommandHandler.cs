@@ -25,6 +25,7 @@ namespace Mechsoft_Project.Application.Features.Commands.UpdateMeeting
         public async Task<int> Handle(UpdateMeetingCommand request, CancellationToken cancellationToken)
         {
             var meeting = await _meetingRepository.GetByIdAsync(request.Id);
+
             meeting.Subject = request.Subject;
             meeting.StartTime = request.StartTime;
             meeting.EndTime = request.EndTime;
@@ -32,7 +33,8 @@ namespace Mechsoft_Project.Application.Features.Commands.UpdateMeeting
 
             _meetingRepository.Update(meeting);
             await _meetingRepository.SaveAsync();
-            _logger.LogInformation("Ürün başarıyla güncellendi.");
+
+            _logger.LogInformation("Toplantı başarılı bir şekilde güncellendi.");
 
             return request.Id;
         }

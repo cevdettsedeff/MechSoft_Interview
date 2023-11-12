@@ -200,14 +200,14 @@
       "netstandard.dll": "sha256-87jtKWKXMg3nXj8D1mLQabI+cTWOPvy5ll3sBYj\/ZhI=",
       "System.Private.CoreLib.dll": "sha256-gjd6M5pA\/nOZEI8pvs9SPUAFG1Jppwr9Xl6v7Wab8Fc=",
       "Mechsoft_Project.Common.dll": "sha256-JCF4DCkZ1xqE2PObnXKBfXE509Z8riBnQS+nslMuMg8=",
-      "Mechsoft_Project.WebApp.dll": "sha256-qze7pBZJo6Hw7CJI\/KHdI2SHZ59R7\/5vGh0HkLFuNec="
+      "Mechsoft_Project.WebApp.dll": "sha256-UprWsYvDaXALQgj0uiWvDq+AocpPUSYz76j08d3A\/cg="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "Mechsoft_Project.Common.pdb": "sha256-YPCCgpS\/+1KCp3CjygQzcxyfX8wGFKaRZ57Iu+n4iU4=",
-      "Mechsoft_Project.WebApp.pdb": "sha256-Lew\/BVNLA018yIK1SMoOumCeHNBOsrNSS3dlthUvq14="
+      "Mechsoft_Project.WebApp.pdb": "sha256-n76TSYgvm\/NjNIq+SQA4g7Y38nP3DRuBPC5150L4xOc="
     },
     "runtime": {
       "dotnet.6.0.23.9b2b1qyo3n.js": "sha256-YYG9NE7FnTlr1qMbQzBTzUGZOcLX64xP2Z1+An1jT6U=",

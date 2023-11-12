@@ -49,7 +49,7 @@ namespace Mechsoft_Project.WebApp.Infrastructure.Services
 
         public async Task<int> UpdateMeeting(UpdateMeetingCommand command)
         {
-            var res = await _httpClient.PostAsJsonAsync($"/api/Meeting/update/{command.Id}", command);
+            var res = await _httpClient.PutAsJsonAsync($"/api/Meeting/update/{command.Id}", command);
 
             if (!res.IsSuccessStatusCode)
                 return 0;
