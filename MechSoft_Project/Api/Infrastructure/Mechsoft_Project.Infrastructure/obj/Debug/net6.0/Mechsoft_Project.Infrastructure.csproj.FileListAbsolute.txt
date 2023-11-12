@@ -1,0 +1,12 @@
+C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Project\Api\Infrastructure\Mechsoft_Project.Infrastructure\bin\Debug\net6.0\Mechsoft_Project.Infrastructure.deps.json
+C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Project\Api\Infrastructure\Mechsoft_Project.Infrastructure\bin\Debug\net6.0\Mechsoft_Project.Infrastructure.dll
+C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Project\Api\Infrastructure\Mechsoft_Project.Infrastructure\bin\Debug\net6.0\Mechsoft_Project.Infrastructure.pdb
+C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Project\Api\Infrastructure\Mechsoft_Project.Infrastructure\obj\Debug\net6.0\Mechsoft_Project.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Project\Api\Infrastructure\Mechsoft_Project.Infrastructure\obj\Debug\net6.0\Mechsoft_Project.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Project\Api\Infrastructure\Mechsoft_Project.Infrastructure\obj\Debug\net6.0\Mechsoft_Project.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Project\Api\Infrastructure\Mechsoft_Project.Infrastructure\obj\Debug\net6.0\Mechsoft_Project.Infrastructure.AssemblyInfo.cs
+C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Project\Api\Infrastructure\Mechsoft_Project.Infrastructure\obj\Debug\net6.0\Mechsoft_Project.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Project\Api\Infrastructure\Mechsoft_Project.Infrastructure\obj\Debug\net6.0\Mechsoft_Project.Infrastructure.dll
+C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Project\Api\Infrastructure\Mechsoft_Project.Infrastructure\obj\Debug\net6.0\refint\Mechsoft_Project.Infrastructure.dll
+C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Project\Api\Infrastructure\Mechsoft_Project.Infrastructure\obj\Debug\net6.0\Mechsoft_Project.Infrastructure.pdb
+C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Project\Api\Infrastructure\Mechsoft_Project.Infrastructure\obj\Debug\net6.0\ref\Mechsoft_Project.Infrastructure.dll

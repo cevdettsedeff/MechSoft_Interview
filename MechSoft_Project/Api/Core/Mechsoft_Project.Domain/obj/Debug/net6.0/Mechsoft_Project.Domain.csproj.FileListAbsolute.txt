@@ -1,0 +1,11 @@
+C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Project\Api\Core\Mechsoft_Project.Domain\bin\Debug\net6.0\Mechsoft_Project.Domain.deps.json
+C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Project\Api\Core\Mechsoft_Project.Domain\bin\Debug\net6.0\Mechsoft_Project.Domain.dll
+C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Project\Api\Core\Mechsoft_Project.Domain\bin\Debug\net6.0\Mechsoft_Project.Domain.pdb
+C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Project\Api\Core\Mechsoft_Project.Domain\obj\Debug\net6.0\Mechsoft_Project.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Project\Api\Core\Mechsoft_Project.Domain\obj\Debug\net6.0\Mechsoft_Project.Domain.AssemblyInfoInputs.cache
+C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Project\Api\Core\Mechsoft_Project.Domain\obj\Debug\net6.0\Mechsoft_Project.Domain.AssemblyInfo.cs
+C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Project\Api\Core\Mechsoft_Project.Domain\obj\Debug\net6.0\Mechsoft_Project.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Project\Api\Core\Mechsoft_Project.Domain\obj\Debug\net6.0\Mechsoft_Project.Domain.dll
+C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Project\Api\Core\Mechsoft_Project.Domain\obj\Debug\net6.0\refint\Mechsoft_Project.Domain.dll
+C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Project\Api\Core\Mechsoft_Project.Domain\obj\Debug\net6.0\Mechsoft_Project.Domain.pdb
+C:\Users\Cevsev\Desktop\C# Projelerim\Yeni Projeler\MechSoft_Project\MechSoft_Project\Api\Core\Mechsoft_Project.Domain\obj\Debug\net6.0\ref\Mechsoft_Project.Domain.dll

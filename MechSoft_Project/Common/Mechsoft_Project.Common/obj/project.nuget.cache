@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dDzRGPNl3zOYYC3KxsHbtHoc7diUv620FDtDa5Q4HZLf33uFbPiKNq9l6V5OsrdIGMvRCOLYyzz+Pbg1RaKBJA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Cevsev\\Desktop\\C# Projelerim\\Yeni Projeler\\MechSoft_Project\\MechSoft_Project\\Common\\Mechsoft_Project.Common\\Mechsoft_Project.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Cevsev\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\Cevsev\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

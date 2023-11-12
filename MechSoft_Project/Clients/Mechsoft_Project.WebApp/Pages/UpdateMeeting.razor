@@ -1,0 +1,101 @@
+﻿@page "/meetings/get/{id}"
+
+@using Mechsoft_Project.Application.Features.Commands.UpdateMeeting;
+@using Mechsoft_Project.Common.Models.Queries;
+@using Mechsoft_Project.WebApp.Infrastructure.Services.Interfaces;
+
+@inject NavigationManager NavigationManager
+
+<h3>Meeting Güncelleme Sayfası</h3>
+
+@if (meeting != null)
+{
+    <EditForm Model="meeting" OnValidSubmit="Update">
+        <br />
+
+        <div class="form-group col-md-4">
+            <input type="hidden" id="id" class="form-control" @bind="meeting.Id" />
+        </div>
+        <div class="form-group col-md-4">
+            <label for="subject" class="form-label">Konu:</label>
+            <InputText id="subject" class="form-control" @bind-Value="meeting.Subject" />
+            @*  <ValidationMessage For="@(() => NewMeetingCommand.Subject)" /> *@
+        </div>
+        <br />
+        <div class="form-group col-md-4">
+            <label class="form-label" for="date">Tarih:</label>
+            <InputDate id="date" class="form-control" @bind-Value="meeting.MeetingDate" />
+            @* <ValidationMessage For="@(() => NewMeetingCommand.MeetingDate)" /> *@
+        </div>
+        <br />
+        <div class="form-group col-md-4">
+            <label class="form-label" for="startTime">Başlangıç Saati:</label>
+            <input type="datetime-local" id="startTime" class="form-control" @bind="meeting.StartTime" />
+            @* <ValidationMessage For="@(() => NewMeetingCommand.StartTime)" /> *@
+        </div>
+        <br />
+        <div class="form-group col-md-4">
+            <label class="form-label" for="endTime">Bitiş Saati:</label>
+            <input type="datetime-local" 
+                    id="endTime" class="form-control" @bind="meeting.EndTime" />
+            @* <ValidationMessage For="@(() => NewMeetingCommand.EndTime)" /> *@
+        </div>
+        <br />
+        <div class="form-group col-md-4">
+            <labe class="form-label" for="participants">Katılımcılar</labe>
+            <InputText id="participants" class="form-control" @bind-Value="meeting.Participants" />
+            @* <ValidationMessage For="@(() => NewMeetingCommand.EndTime)" /> *@
+        </div>
+        <br />
+
+        <div class="button-group">
+            <button type="button" class="btn btn-outline-primary col-md-2" @onclick="() => Return()">Geri dön</button>
+            <button type="submit" class="btn btn-primary col-md-2">Güncelle</button>
+        </div>
+    </EditForm>
+}
+else
+{
+    <p>Meeting bilgisi bulunamadı.</p>
+}
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+
+    [Inject]
+    IMeetingService meetingService { get; set; }
+
+    private void Return()
+    {
+        NavigationManager.NavigateTo("/meetings");
+    }
+
+    private GetMeetingViewModel meeting { get; set; } = new();
+
+    private UpdateMeetingCommand command { get; set; } = new ();
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Meeting verilerini getir
+        meeting = await meetingService.GetOneMeeting(id);
+    }
+
+     
+     async Task Update()
+    {
+        await meetingService.UpdateMeeting(new UpdateMeetingCommand
+            {
+                Id=meeting.Id,
+                Subject = meeting.Subject,
+                MeetingDate = meeting.MeetingDate,
+                StartTime = meeting.StartTime,
+                EndTime = meeting.EndTime,
+                Participants = meeting.Participants
+            });
+
+        NavigationManager.NavigateTo("/meetings");
+    }
+
+    
+}

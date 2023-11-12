@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Mechsoft_Project.WebApp.props" />
+</Project>

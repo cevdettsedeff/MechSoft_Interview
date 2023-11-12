@@ -1,0 +1,82 @@
+﻿@page "/meetings/create"
+
+@using Mechsoft_Project.Common.Models.Commands;
+@using Mechsoft_Project.WebApp.Infrastructure.Services.Interfaces;
+
+@inject NavigationManager NavigationManager
+
+<h3>Yeni Toplantı Ekle</h3>
+
+<EditForm Model="NewMeetingCommand" OnValidSubmit="AddMeeting">
+@*      <FluentValidationValidator @ref="validator" /> *@
+<br />
+    <div class="form-group col-md-4">
+        <label for="subject" class="form-label">Konu:</label>
+        <InputText id="subject" class="form-control" @bind-Value="NewMeetingCommand.Subject" />
+       @*  <ValidationMessage For="@(() => NewMeetingCommand.Subject)" /> *@
+    </div>
+    <br />
+    <div class="form-group col-md-4">
+        <label class="form-label" for="date">Tarih:</label>
+        <InputDate id="date" class="form-control" @bind-Value="NewMeetingCommand.MeetingDate" />
+        @* <ValidationMessage For="@(() => NewMeetingCommand.MeetingDate)" /> *@
+    </div>
+    <br />
+    <div class="form-group col-md-4">
+        <label class="form-label" for="startTime">Başlangıç Saati:</label>
+        <input type="datetime-local" min="DateTime.UtcNow"
+               max="2018-06-14T00:00" id="startTime" class="form-control" @bind="NewMeetingCommand.StartTime" />
+    @* <ValidationMessage For="@(() => NewMeetingCommand.StartTime)" /> *@
+</div>
+    <br />
+    <div class="form-group col-md-4">
+        <label class="form-label" for="endTime">Bitiş Saati:</label>
+        <input type="datetime-local" min="@DateTime.UtcNow"
+               max="2024-06-14T00:00" id="endTime" class="form-control" @bind="NewMeetingCommand.EndTime" />
+        @* <ValidationMessage For="@(() => NewMeetingCommand.EndTime)" /> *@
+    </div>
+    <br />
+    <div class="form-group col-md-4">
+        <labe class="form-label" for="participants">Katılımcılar</labe>
+        <InputText id="participants" class="form-control" @bind-Value="NewMeetingCommand.Participants" />
+        @* <ValidationMessage For="@(() => NewMeetingCommand.EndTime)" /> *@
+    </div>
+    <br />
+
+    <div class="button-group">
+     <button type="button" class="btn btn-outline-primary col-md-2" @onclick="() => Return()">Geri dön</button>
+    <button type="submit" class="btn btn-primary col-md-2">Ekle</button>
+    </div>
+</EditForm>
+
+@code {
+    [Inject]
+    IMeetingService meetingService { get; set; }
+
+     CreateMeetingCommand NewMeetingCommand { get; set; } = new CreateMeetingCommand();
+    // private FluentValidationValidator validator;
+    private void Return()
+    {
+        NavigationManager.NavigateTo("/meetings");
+    }
+
+    private async Task AddMeeting()
+    {
+        // var validationResult = await validator.ValidateAsync();
+        // if (!validationResult.IsValid)
+        // {
+        //     return;
+        // }
+
+        await meetingService.CreateMeeting(new CreateMeetingCommand
+        {
+            Subject = NewMeetingCommand.Subject,
+            MeetingDate = NewMeetingCommand.MeetingDate,
+            StartTime = NewMeetingCommand.StartTime,
+            EndTime = NewMeetingCommand.EndTime,
+            Participants = NewMeetingCommand.Participants
+        });
+
+        NavigationManager.NavigateTo("/meetings");
+    }
+}

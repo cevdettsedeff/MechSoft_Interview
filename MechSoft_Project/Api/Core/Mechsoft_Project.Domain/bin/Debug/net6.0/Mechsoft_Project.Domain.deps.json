@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Mechsoft_Project.Domain/1.0.0": {
+        "runtime": {
+          "Mechsoft_Project.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mechsoft_Project.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

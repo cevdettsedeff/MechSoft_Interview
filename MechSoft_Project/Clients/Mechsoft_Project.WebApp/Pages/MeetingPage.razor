@@ -1,0 +1,86 @@
+﻿@page "/meetings"
+@using Mechsoft_Project.Common.Models.Queries;
+@using Mechsoft_Project.WebApp.Infrastructure.Services.Interfaces;
+@inject NavigationManager NavigationManager
+
+<h3>Toplantı Listesi</h3>
+
+@if (meetings == null)
+{
+    <p>Toplantı bulunamadı.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Toplantı Konusu</th>
+                <th>Toplantı Tarih</th>
+                <th>Başlangıç Saati</th>
+                <th>Bitiş Saati</th>
+                <th>Katılımcılar </th>
+                <th>Düzenle Veya Sil</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var meeting in meetings)
+            {
+                <tr>
+                    <td>@meeting.Id</td>
+                    <td>@meeting.Subject</td>
+                    <td>@meeting.MeetingDate.ToShortDateString()</td>
+                    <td>@meeting.StartTime.ToString("HH:mm")</td>
+                    <td>@meeting.EndTime.ToString("HH:mm")</td>
+                    <td>@meeting.Participants</td>
+                    <td>
+                        <button class="btn btn-success" @onclick="() => EditMeeting(meeting.Id)">Düzenle</button>
+                        <button class="btn btn-danger" @onclick="() => DeleteMeeting(meeting.Id)">Sil</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<button class="btn btn-success" @onclick="CreateMeeting">Yeni Toplantı Oluştur</button>
+
+@code {
+
+    [Parameter]
+    public int id { get; set; }
+
+    [Inject]
+    IMeetingService _meetingService { get; set; }
+
+    List<GetMeetingViewModel> meetings = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        meetings =  await _meetingService.GetMeetings();
+
+        StateHasChanged();
+
+    }
+
+    private void EditMeeting(int id)
+    {
+        NavigationManager.NavigateTo($"/meetings/get/{id}");
+    }
+
+    private void CreateMeeting()
+    {
+        NavigationManager.NavigateTo("/meetings/create");
+    }
+
+    private async void DeleteMeeting(int id)
+    {
+        await _meetingService.DeleteMeeting(id);
+
+        NavigationManager.NavigateTo(NavigationManager.Uri, forceLoad: true);
+    }
+
+
+
+
+}
